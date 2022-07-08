@@ -16,7 +16,7 @@ def add_user(name, id):
     conn.commit()
 
 
-conn = sqlite3.connect('../DB/Parrot_Bot.db')
+conn = sqlite3.connect('DB/Parrot_Bot.db')
 cur = conn.cursor()
 
 

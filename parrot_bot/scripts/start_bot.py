@@ -1,4 +1,4 @@
-from parrot_bot.client import main
+from parrot_bot.bot_init import main
 
 
 def start():
